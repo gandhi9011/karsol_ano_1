@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="#494949"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:weightSum="1">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="119dp"
+        android:layout_height="63dp"
+        android:src="@drawable/common_google_signin_btn_icon_dark" />
+
+    <TextView
+        android:id="@+id/Company"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Karsol"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/Place"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Company"
+        android:layout_marginLeft="20dp"
+        android:text="INDIA" />
+
+    <TextView
+        android:id="@+id/datetime"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Place"
+        android:layout_marginLeft="20dp"
+        android:text="Time" />
+
+</LinearLayout>
